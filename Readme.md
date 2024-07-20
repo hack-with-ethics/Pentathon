@@ -1,6 +1,6 @@
 # Pentathon 2024
 # Approach
-# Task 1.Discover Ip
+# Initial Discovery 1.Discover Ip
         First Task is to Discover the ip because the machine does not disclose the Ip address 
         so i used Netdiscover Tool
         
@@ -8,7 +8,7 @@
         ----------------
         sudo netdiscover
         -----------------
-# Task 2. Scan the Ip Address with Network Scanners[Nmap]:
+# Service And Network Info 2. Scan the Ip Address with Network Scanners[Nmap]:
 
         # Command:
         -------------------------------------------------------------------------------------------------
@@ -47,5 +47,6 @@
         Read data files from: /usr/bin/../share/nmap
         Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
         # Nmap done at Sun Mar 17 07:11:50 2024 -- 1 IP address (1 host up) scanned in 8.41 seconds
+
         
                         
