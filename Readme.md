@@ -50,7 +50,11 @@
 ![Screenshot 2024-07-20 152527](https://github.com/user-attachments/assets/7aec4d55-ea2b-4c0c-b215-8bff1e00227c)
 
 # Based on the Scan Results
-        The Port 80 was open and a web server was running as Apache so i just viewed it in my browser so i got some idea about the website but i does'nt had any idea about the web technologies Running such as What Language is used in backend what is the version such info so i tried to use WHATWEB tool
+        The Port 80 was open and a web server was running as Apache so i just viewed it in my browser so i 
+        got some idea about the website but i does'nt had any idea about the web technologies Running such as 
+        What Language is used in backend what is the version such info so i tried to use WHATWEB tool
+        And also ssh port was open as per the pentathon rules brute force was not allowed so i dont need
+        bruteForce the username and password
 
 # WhatWeb usage:
         
