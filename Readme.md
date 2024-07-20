@@ -60,7 +60,7 @@
         
 ![Screenshot 2024-07-20 142924](https://github.com/user-attachments/assets/d1b0f34a-c012-4b15-883b-69c3942a0435)
 
-# port 80 Vulnerablity Analysis:
+# Port 80 Vulnerablity Analysis:
         First And Formost i Ran Nikto Tool for vulnerablity Analysis and was Getting Nothing
         so i Started a directory Discovery using gobuster
         ===============================================================
@@ -79,7 +79,7 @@
         ===============================================================
         
         [2K/resources            (Status: 301) [Size: 316] [--> http://192.168.1.39/resources/]
-        
+       
         [2K/uploads              (Status: 301) [Size: 314] [--> http://192.168.1.39/uploads/]
         
         [2K/actual               (Status: 301) [Size: 313] [--> http://192.168.1.39/actual/]
@@ -90,3 +90,4 @@
         Finished
         ===============================================================
 
+ ![Screenshot 2024-07-20 153755](https://github.com/user-attachments/assets/296a3662-e68f-4edd-bd86-2c2c08f2e08d)
