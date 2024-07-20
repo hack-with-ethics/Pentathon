@@ -53,9 +53,40 @@
         The Port 80 was open and a web server was running as Apache so i just viewed it in my browser so i 
         got some idea about the website but i does'nt had any idea about the web technologies Running such as 
         What Language is used in backend what is the version such info so i tried to use WHATWEB tool
-        And also ssh port was open as per the pentathon rules brute force was not allowed so i dont need
-        bruteForce the username and password
+        And also ssh port was open as per the pentathon rules brute force was not allowed so i dont need to
+        bruteForce the username and password of ssh
 
 # WhatWeb usage:
         
 ![Screenshot 2024-07-20 142924](https://github.com/user-attachments/assets/d1b0f34a-c012-4b15-883b-69c3942a0435)
+
+# port 80 Vulnerablity Analysis:
+        First And Formost i Ran Nikto Tool for vulnerablity Analysis and was Getting Nothing
+        so i Started a directory Discovery using gobuster
+        ===============================================================
+        Gobuster v3.6
+        by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+        ===============================================================
+        [+] Url:                     http://192.168.1.39
+        [+] Method:                  GET
+        [+] Threads:                 10
+        [+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+        [+] Negative Status codes:   404
+        [+] User Agent:              gobuster/3.6
+        [+] Timeout:                 10s
+        ===============================================================
+        Starting gobuster in directory enumeration mode
+        ===============================================================
+        
+        [2K/resources            (Status: 301) [Size: 316] [--> http://192.168.1.39/resources/]
+        
+        [2K/uploads              (Status: 301) [Size: 314] [--> http://192.168.1.39/uploads/]
+        
+        [2K/actual               (Status: 301) [Size: 313] [--> http://192.168.1.39/actual/]
+        
+        [2K/server-status        (Status: 403) [Size: 277]
+        
+        ===============================================================
+        Finished
+        ===============================================================
+
