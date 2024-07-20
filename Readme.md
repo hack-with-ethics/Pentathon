@@ -47,6 +47,4 @@
         Read data files from: /usr/bin/../share/nmap
         Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
         # Nmap done at Sun Mar 17 07:11:50 2024 -- 1 IP address (1 host up) scanned in 8.41 seconds
-
-        
-                        
+        ![Screenshot 2024-07-20 152527](https://github.com/user-attachments/assets/7aec4d55-ea2b-4c0c-b215-8bff1e00227c)
