@@ -5,10 +5,13 @@
         so i used Netdiscover Tool
         
         # Command
+        ----------------
         sudo netdiscover
+        -----------------
 # Task 2. Scan the Ip Address with Network Scanners[Nmap]:
 
-        #Command:
+        # Command:
+        -------------------------------------------------------------------------------------------------
         nmap -sV -sC -vv -A -oN namp.txt 192.168.1.39
         -sV - Version Detection
         -sC - Default Scripts
@@ -17,7 +20,9 @@
         -A - Aggressive Scan and For os Detection
         Finally:
                 Ip Address
+        ----------------------------------------------------------------------------------------------------
         # Nmap Results:
+        ----------------------------------------------------------------------------------------------------
         # Nmap 7.94 scan initiated Sun Mar 17 07:11:42 2024 as: nmap -sV -sC -vv -A -oN namp.txt 192.168.1.39
         Nmap scan report for 192.168.1.39
         Host is up, received syn-ack (0.0029s latency).
