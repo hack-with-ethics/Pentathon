@@ -1,0 +1,22 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.1.39
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/resources            (Status: 301) [Size: 316] [--> http://192.168.1.39/resources/]
+[2K/uploads              (Status: 301) [Size: 314] [--> http://192.168.1.39/uploads/]
+[2K/actual               (Status: 301) [Size: 313] [--> http://192.168.1.39/actual/]
+[2K/server-status        (Status: 403) [Size: 277]
+
+===============================================================
+Finished
+===============================================================
