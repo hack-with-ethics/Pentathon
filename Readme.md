@@ -1,5 +1,5 @@
 # Pentathon 2024
-https://github.com/user-attachments/assets/24e7e9f6-d086-4573-bd68-3529c14f0e99
+https://github.com/user-attachments/assets/cc4ce1f9-e3b9-4c1c-bd59-ed164deda038
 # Approach
 # Initial Discovery 1.Discover Ip
         First Task is to Discover the ip because the machine does not disclose the Ip address 
@@ -118,6 +118,6 @@ https://github.com/user-attachments/assets/24e7e9f6-d086-4573-bd68-3529c14f0e99
 
         #Finally:
 
-https://github.com/user-attachments/assets/5dd1409a-c91f-4caa-8719-8bdc30228e26
+https://github.com/user-attachments/assets/142bdb49-ddbb-4d44-836c-6c983c3b104d
 
 
