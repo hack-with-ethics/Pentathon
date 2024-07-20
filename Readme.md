@@ -48,3 +48,10 @@
         Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
         # Nmap done at Sun Mar 17 07:11:50 2024 -- 1 IP address (1 host up) scanned in 8.41 seconds
 ![Screenshot 2024-07-20 152527](https://github.com/user-attachments/assets/7aec4d55-ea2b-4c0c-b215-8bff1e00227c)
+
+# Based on the Scan Results
+        The Port 80 was open and a web server was running as Apache so i just viewed it in my browser so i got some idea about the website but i does'nt had any idea about the web technologies Running such as What Language is used in backend what is the version such info so i tried to use WHATWEB tool
+
+# WhatWeb usage:
+        
+![Screenshot 2024-07-20 142924](https://github.com/user-attachments/assets/d1b0f34a-c012-4b15-883b-69c3942a0435)
